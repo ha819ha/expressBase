@@ -1,0 +1,17 @@
+{
+  "name": "expressUsingJade",
+  "version": "1.0.0",
+  "scripts" : {
+    "start" : "node app.js",
+    "install": "make&&make install",
+    "development": "set NODE_ENV=development&&node ./build/main.js",
+    "production": "set NODE_ENV=production&&node ./build/main.js"
+  },
+  "dependencies":
+  {
+    "express": ">= 4.13.1",
+    "ejs": ">= 2.4.1",
+    "body-parser": ">= 1.14.2",
+    "express-session": ">= 1.13.0"
+  }
+}
